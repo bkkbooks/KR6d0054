@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR6d0054/v1
+canonical_location: https://kanripo.org/bkk/KR6d0054/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 觀音經義疏記條箇
+  identifiers:
+    alt_id:
+    - X35n0644
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X35/X35n0644.xml
+    old_id: X35n0644
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0054_000.yaml, hash: 'sha256:c469e68bd86eedc406adf3038e75e4e200381bad73cb01ce360a6d981dee342f'}
+  - {seq: 1, filename: KR6d0054_001.yaml, hash: 'sha256:2f843b0c55e5a782e75088ac913929def801a0185c6dd248982dc8aefa19b4fc'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6d0054_001.markers.yaml, hash: 'sha256:bd12977d66c66bfd85ded395083d33d012992ca61c56a4ff009359b96c364194'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0054_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 3091
+  label: 觀音義疏記條箇
+  type: juan
+  level: 1
+hash: sha256:b3242321573e8605d586215fb51e21bcb374cb35843ac0f8d5deba6806fcfa2d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: X
